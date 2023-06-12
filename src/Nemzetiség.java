@@ -1,8 +1,0 @@
-public enum Nemzetiség {
-    HUNGARIAN(MAGYAR, UNGHERESE),
-    ENGLISH(ANGOL, INGLESE),
-    GERMAN(NÉMET, TADESCO),
-    ITALIAN(OLASZ, ITALIANO);
-
-
-}
