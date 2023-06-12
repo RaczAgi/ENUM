@@ -1,11 +1,11 @@
 public class Person {
     private String name;
-    private String gender;
+    private Gender gender;
     private EyeColor eyeColor = EyeColor.BLUE;
 
     public Person(){}
 
-    public Person(String name, String gender, EyeColor eyeColor) {
+    public Person(String name, Gender gender, EyeColor eyeColor) {
         this.name = name;
         this.gender = gender;
         this.eyeColor = eyeColor;
@@ -19,11 +19,11 @@ public class Person {
         this.name = name;
     }
 
-    public String getGender() {
+    public Gender getGender() {
         return gender;
     }
 
-    public void setGender(String gender) {
+    public void setGender(Gender gender) {
         this.gender = gender;
     }
 
@@ -39,7 +39,7 @@ public class Person {
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
-                ", gender='" + gender + '\'' +
+                ", gender='" + gender.getMagyarNev() + '\'' +
                 ", eyeColor=" + eyeColor +
                 '}';
     }
